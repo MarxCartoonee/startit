@@ -68,7 +68,7 @@ section {
 /* Grid */
 .w {
 	box-sizing: border-box;
-	margin: 0 20px;
+	margin: 0 10px;
 }
 
 .w1 {
@@ -76,7 +76,7 @@ section {
 }
 
 .w2 {
-	width: calc(50% - 40px);
+	width: calc(50% - 20px);
 }
 /* End Grid */
 
@@ -259,6 +259,7 @@ section.bookings {
 .table-wrapper {
 	position: relative;
 	margin: 0 20px;
+	flex-direction: row;
 }
 
 .table-wrapper::before {
@@ -275,10 +276,31 @@ section.bookings {
 	opacity: .75;
 }
 
-.table-wrapper h2, .table-wrapper table , .table-wrapper p{
+.table-wrapper > * {
 	z-index: 2;
+}
+
+.table-wrapper table, .table-wrapper div {
 	text-align: left;
 	margin: 20px 10px;
+}
+
+.table-wrapper p, .table-wrapper h2{
+	margin: 20px 0;
+}
+
+.table-wrapper .not-table {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.table-wrapper div.img {
+	mask-image: url(../img/SVG/gondola.svg);
+	mask-repeat: no-repeat;
+	mask-size: contain;
+	mask-position: center center;
+	background-color: #3C69AF;
 }
 
 .table-wrapper table tr {
@@ -456,6 +478,7 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	box-sizing: border-box;
+	padding: 0 20px;
 }
 
 .footer-wrapper form::before {
