@@ -125,7 +125,7 @@ header {
 /* Contacts */
 .contact-nav, .socials {
 	margin-top: 1ex;
-	font-size: 21px;
+	font-size: 18px;
 }
 
 .contact-nav ul li {
@@ -512,7 +512,7 @@ footer {
 .footer-wrapper form input, .footer-wrapper form select, .footer-wrapper form textarea {;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding: .4em 2ex;
+	padding: 5px 10px;
 	border: none;
 	border-radius: 1em;
 	font-family: Arial, sans-serif;

@@ -67,6 +67,8 @@ article {
 
 article img {
 	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px
 }
 
 nav.main-nav ul {
@@ -101,7 +103,7 @@ nav.main-nav ul li a {
 nav.main-nav ul li a:hover {
 	color: #fff;
 	background-color: #E5E5E5;
-	letter-spacing: .5ex;
+	letter-spacing: .25ex;
 }
 
 /* ZADATAK */
