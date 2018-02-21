@@ -1,8 +1,9 @@
 *.sublime-project
 *.sublime-workspace
-*.jpg
-*.png
-!akari-*.png
-!aria-company.png
-!commenter-*.jpg
-!neo-venezia-*.jpg
+aria/img/*.jpg
+aria/img/*.png
+!aria/img/akari-*.png
+!aria/img/aria-company.png
+!aria/img/commenter-*.jpg
+!aria/img/neo-venezia-*.jpg
+!aria/img/stripes.png
