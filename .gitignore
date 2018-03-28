@@ -1,5 +1,6 @@
 *.sublime-project
 *.sublime-workspace
+.vscode
 aria/img/*.jpg
 aria/img/*.png
 !aria/img/akari-*.png
